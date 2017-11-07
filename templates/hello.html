@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Staticka stranica</title>
+<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="static/css/normalize.css">
+  <link rel="stylesheet" href="static/css/skeleton.css">
+  <link rel="stylesheet" href="static/css/termo.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="/static/image/png" href="images/favicon.png">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>What is the current temperature and humidity at my apartment?</h1>
+  <!-- <h3>Temperature is: 23 &#176</h3>
+  <h3>Humidity is: 60 %</h3> -->
+
+<!-- prvi termometar -->
+
+<table>
+  <tr>
+    <td>
+      <h2>Temperature:</h2>
+      <div class="de">
+          <div class="den">
+            <div class="dene">
+              <div class="denem">
+                <div class="deneme">
+                  {{temp}}<span></span><strong>&deg;</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </td>
+
+    <td></td>
+
+    <td>
+      <h2>Humidity:</h2>
+      <div class="de">
+          <div class="den">
+            <div class="dene">
+              <div class="denem">
+                <div class="deneme">
+                  {{vlaga}}<span>%</span><strong></strong>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </td>
+
+  </tr>
+</table>
+
+<h5>Refresh to update the data.</h5>
+
+
+<!-- Drugi termometar -->
+
+
+
+
+
+</div>
+</body>
+</html>
