@@ -15,7 +15,7 @@ app.debug = True
 @app.route("/")
 def hello():
 	vlaga,temp = procitaj_DHT11()
-	return render_template('hello.html',temp = temp,vlaga = vlaga )
+	return render_template('temp_hum.html',temp = temp,vlaga = vlaga )
 
 
 
